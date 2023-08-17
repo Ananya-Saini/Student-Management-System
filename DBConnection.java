@@ -3,7 +3,7 @@ package StudentManagement;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class ConnectDB {
+public class DBConnection {
     static Connection con;
     public static Connection createC(){
         try{
