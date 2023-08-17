@@ -1,25 +1,25 @@
 package StudentManagement;
 
-public class Student {
+public class StudentInfo {
     private int studentId;
     private String studentName;
     private String studentPhone;
     private String studentCity;
 
-    public Student(int id, String name, String phone, String city){
+    public StudentInfo(int id, String name, String phone, String city){
         studentId = id;
         studentName = name;
         studentPhone = phone;
         studentCity = city;
     }
 
-    public Student(String name, String phone, String city){
+    public StudentInfo(String name, String phone, String city){
         studentName = name;
         studentPhone = phone;
         studentCity = city;
     }
 
-    public Student(){ }
+    public StudentInfo(){ }
 
     public int getStudentId(){
         return studentId;
